@@ -1,0 +1,43 @@
+{
+  "name": "runt",
+  "version": "1.0.0",
+  "description": "This is a template collection of umi and next.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": ""
+  },
+  "bin": {
+    "runt": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "dist/**/*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fengxiaotingzz/runt.git"
+  },
+  "keywords": [
+    "react",
+    "umi",
+    "next.js",
+    "template"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fengxiaotingzz/runt/issues"
+  },
+  "homepage": "https://github.com/fengxiaotingzz/runt#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.1",
+    "cross-spawn": "^7.0.3",
+    "download-git-repo": "^3.0.2",
+    "fs": "0.0.1-security",
+    "inquirer": "^9.1.5",
+    "ora": "^6.3.0",
+    "path": "^0.12.7"
+  }
+}
