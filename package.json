@@ -1,6 +1,6 @@
 {
   "name": "runt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a template collection of umi and next.js",
   "main": "index.js",
   "scripts": {
