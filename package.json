@@ -1,6 +1,6 @@
 {
   "name": "rumnet",
-  "version": "1.1.0-alpha.0",
+  "version": "1.2.0-alpha.0",
   "description": "This is a template collection of umi and next.js",
   "main": "index.js",
   "scripts": {
