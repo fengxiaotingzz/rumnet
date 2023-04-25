@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "",
-    "alpha": "release-it premajor --preReleaseId=alpha --npm.tag=alpha --github.preRelease",
-    "beta": "release-it premajor --preReleaseId=beta --npm.tag=beta --github.preRelease",
+    "alpha": "release-it preminor --preReleaseId=alpha --npm.tag=alpha --github.preRelease",
+    "beta": "release-it preminor --preReleaseId=beta --npm.tag=beta --github.preRelease",
     "release": "release-it"
   },
   "bin": {
