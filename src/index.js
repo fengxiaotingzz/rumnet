@@ -11,5 +11,4 @@ program.command('init').description('init a new project. usage: runt init <proje
 })
 
 program.version(package.version, '-v --version')
-
 program.parse(process.argv)
