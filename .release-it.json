@@ -43,5 +43,11 @@
   },
   "github": {
     "release": true
+  },
+  "npm": {
+    "publish": true
+  },
+  "git": {
+    "commitMessage": "release: v${version}"
   }
 }
