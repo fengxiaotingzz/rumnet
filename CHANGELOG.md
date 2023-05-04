@@ -1,5 +1,12 @@
 
 
+### [1.3.1](https://github.com/fengxiaotingzz/runt/compare/1.3.0...1.3.1) (2023-05-04)
+
+
+### Bug Fixes
+
+* README ([e57f9fe](https://github.com/fengxiaotingzz/runt/commit/e57f9fefae048777d71b2d1f81335ed0f4d3669d))
+
 ## [1.3.0](https://github.com/fengxiaotingzz/runt/compare/1.3.0-alpha.0...1.3.0) (2023-05-04)
 
 
