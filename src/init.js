@@ -4,6 +4,8 @@ const path = require('path');
 const fs = require('fs')
 const shell = require('shelljs')
 const download = require('./download')
+const inquirer = require('inquirer');
+const templateList = require('./templateList')
 
 const checkNodeVersion = () => {
     const nodeV = shell.exec('node -v')
@@ -17,13 +19,19 @@ const checkNodeVersion = () => {
     return true
 }
 
-const createUmi = (name) => {
+const choiceTemplate = (name) => {
+    inquirer.prompt(templateList).then( async answer => {
+        const { type } = answer;
+        download({url: `fengxiaotingzz/${type}-template#master`, dir: `./${name}`, type})
+    })
+}
+
+const createDir = (name) => {
     shell.exec('npm config set registry https://registry.npmjs.org/')
     console.log(chalk.green('Switched to https://registry.npmjs.org/'))
-
     if (checkNodeVersion()) {
         fs.mkdirSync(name);
-        download({url:'fengxiaotingzz/umi-template#master', dir: `./${name}`, type: 'umi'})
+        choiceTemplate(name)
     }
 }
 
@@ -33,9 +41,9 @@ module.exports =  function init(name){
 
         fs.readdir(`${curPath}/${name}`, (err, dirName)=>{
             if (err) {
-                createUmi(name)
+                createDir(name)
             } else {
-                console.log(chalk.red('the project name is exited'))
+                console.log(chalk.red('the project name is created'))
             }
         })
     } else {

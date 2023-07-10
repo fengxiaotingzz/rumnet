@@ -18,27 +18,28 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fengxiaotingzz/runt.git"
+    "url": "https://github.com/fengxiaotingzz/rumnet.git"
   },
   "keywords": [
     "react",
     "umi",
     "next.js",
-    "template"
+    "template",
+    "dumi"
   ],
   "author": "fengxiaoting",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fengxiaotingzz/runt/issues"
+    "url": "https://github.com/fengxiaotingzz/rumnet/issues"
   },
-  "homepage": "https://github.com/fengxiaotingzz/runt#readme",
+  "homepage": "https://github.com/fengxiaotingzz/rumnet#readme",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^10.0.1",
     "cross-spawn": "^7.0.3",
     "download-git-repo": "^3.0.2",
     "fs": "0.0.1-security",
-    "inquirer": "^9.1.5",
+    "inquirer": "^8.2.5",
     "ora": "^5.4.1",
     "path": "^0.12.7",
     "shelljs": "^0.8.5"
