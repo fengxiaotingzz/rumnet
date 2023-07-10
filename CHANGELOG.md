@@ -1,5 +1,12 @@
 
 
+## [1.4.0-alpha.0](https://github.com/fengxiaotingzz/rumnet/compare/1.3.1...1.4.0-alpha.0) (2023-07-10)
+
+
+### Features
+
+* 增加dumi ([eb0f380](https://github.com/fengxiaotingzz/rumnet/commit/eb0f380410a025355c89a1b586ea36576ed45823))
+
 ### [1.3.1](https://github.com/fengxiaotingzz/runt/compare/1.3.0...1.3.1) (2023-05-04)
 
 
