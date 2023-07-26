@@ -1,5 +1,7 @@
 
 
+## [1.4.0](https://github.com/fengxiaotingzz/rumnet/compare/1.4.0-alpha.0...1.4.0) (2023-07-26)
+
 ## [1.4.0-alpha.0](https://github.com/fengxiaotingzz/rumnet/compare/1.3.1...1.4.0-alpha.0) (2023-07-10)
 
 
